@@ -8,4 +8,4 @@ console.log(sumOfN(5));
 console.log(sumOfN(10));
 console.log(sumOfN(3));
 
-// TC - O(n)
+// Big O - O(n)

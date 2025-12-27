@@ -13,3 +13,5 @@ function lSearch(arr, target, index, size) {
 console.log(recursiveLinearSearch([8, -1, 3, 7, 9, 4, 6], 9));
 console.log(recursiveLinearSearch([8, -1, 3, 7, 9, 4, 6], -1));
 console.log(recursiveLinearSearch([8, -1, 3, 7, 9, 4, 6], 77));
+
+// Big O - O(n)

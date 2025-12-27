@@ -20,4 +20,4 @@ console.log(binarySearch([1, 2, 3, 4, 5, 6, 7], 2));
 console.log(binarySearch([1, 2, 3, 4, 5, 6, 7], 7));
 console.log(binarySearch([1, 2, 3, 4, 5, 6], 5));
 
-// TC - O(log n)
+// Big O - O(log n)

@@ -8,4 +8,4 @@ console.log(recursiveFib(5));
 console.log(recursiveFib(1));
 console.log(recursiveFib(6));
 
-//TC - O(2^n)
+// Big O - O(2^n)
