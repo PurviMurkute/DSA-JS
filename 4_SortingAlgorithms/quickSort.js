@@ -19,3 +19,7 @@ const arr = [4, -9, 7, 33, -33, 11, 5];
 console.log(`unsorted array: `, arr);
 const sorted = quickSort(arr);
 console.log("sorted array: ", sorted);
+
+
+// Big O = O(n^2)
+// SC - O(n)
