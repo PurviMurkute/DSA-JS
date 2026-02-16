@@ -23,3 +23,6 @@ function reverseWords(s) {
 
 console.log(reverseWords("     Hello    World    "));      //World Hello
 console.log(reverseWords("the sky is blue"));      //blue is sky the
+
+// Big O TC - O(2n) => O(n)  
+// SC - O(n)
