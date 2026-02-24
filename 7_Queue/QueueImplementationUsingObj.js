@@ -34,6 +34,10 @@ class Queue {
   size() {
     return this.rear - this.front;
   }
+
+  printItems(){
+    return Object.values(this.items);
+  }
 }
 
 const queue = new Queue;
@@ -49,8 +53,10 @@ queue.enqueue(3);
 console.log(queue.isEmpty());   //false
 console.log(queue.size());  //4
 console.log(queue.peek());  //55
+console.log(queue.printItems());
 
 console.log(queue.dequeue());   //55
 console.log(queue.isEmpty());   //false
 console.log(queue.size());   //3
 console.log(queue.peek());   //5
+console.log(queue.printItems());
